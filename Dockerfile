@@ -16,7 +16,6 @@ COPY packages/dashboard/package.json ./packages/dashboard/package.json
 COPY packages/desktop/package.json ./packages/desktop/package.json
 COPY packages/engine/package.json ./packages/engine/package.json
 COPY packages/mobile/package.json ./packages/mobile/package.json
-COPY packages/tui/package.json ./packages/tui/package.json
 
 RUN pnpm install --frozen-lockfile
 
